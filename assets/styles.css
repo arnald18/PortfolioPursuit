@@ -1,0 +1,80 @@
+:root {
+  --primary: rgba(68, 88, 119, 1);
+  --secondary: rgba(146, 204, 206, 1);
+  --tertiary: rgba(49, 52, 61, 1);
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(238, 238, 247, 1); }
+
+
+
+
+
+header {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  height: 10px;
+  wei
+}
+
+
+.header-name {
+  font-size: smaller;
+  background-color: rgba(146, 204, 206, 1);
+  margin-right: 200px;
+  padding: 5px;
+
+  .nav-link {
+    display: inline-block;
+    margin-right: 9px;
+  }
+}
+
+.header-nav {
+  display: inline;
+  margin-right: 100px;
+}
+
+.portfolio-name {
+  text-align: end;
+  margin: 20px;
+  background-color: cyan;
+}
+
+main {
+  padding-right: 200px;
+}
+
+#about-me h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 25px;
+}
+
+#about-me p {
+  background-color: blueviolet;
+}
+
+#work-section {
+  font-size: small;
+  display: flex;
+}
+
+.work {
+  max-width: 50px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.ocean-view {
+  background-image: url("./images/02-portfolio-1.jpg");
+  font-size: medium;
+}
+
+#contact-me {
+  font-size: xx-large;
+}
+
+.bottom-links {
+  font-size: larger;
+}
