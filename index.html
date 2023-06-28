@@ -10,15 +10,22 @@
   <body>
     <header>
       <!-- this the header-top and header-nav -->
-      <h1>Arnaldo Henriquez Carrasquillo Jr</h1>
+      <div id="header-top">
+        <h1>Arnaldo Henriquez Carrasquillo Jr</h1>
+      </div>
+
       <nav>
         <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#Work">About Me</a></li>
-          <li><a href="#Contact">About Me</a></li>
-          <li><a href="#Resume">About Me</a></li>
-        </ul>
+        
+            <div class="nav-links"> <li><a href="#about-me">About Me</a></li>
+          
+
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
+          <li><a href="#Resume">Resume</a></li>
+        </div>
       </nav>
+      </ul>
     </header>
     <main>
       <!-- todo add my section -->
@@ -28,8 +35,13 @@
       <!-- todo add my work section -->
       <section>
         <h2>Work</h2>
+        <div class="content">
         <div id="first-example" class="example-border">
-          <img src="./assets/images/02-portfolio-4.jpg" alt="people surfing" />
+          <img
+            src="./assets/images/02-portfolio-4.jpg"
+            
+            alt="people surfing"
+          />
 
           <div>
             <h3>Surf Report</h3>
@@ -38,7 +50,11 @@
         </div>
 
         <div class="example example-border">
-          <img src="./assets/images/02-portfolio-1.jpg" alt="Led red" />
+          <img
+            src="./assets/images/02-portfolio-1.jpg"
+            
+            alt="Led red"
+          />
 
           <div>
             <h3>LED WALL</h3>
@@ -49,6 +65,7 @@
         <div class="example example-border">
           <img
             src="./assets/images/02-portfolio-2.jpg"
+            
             alt="Laptop on desk open"
           />
           <div>
@@ -59,6 +76,7 @@
         <div class="example example-border">
           <img
             src="./assets/images/02-portfolio-3.jpg"
+            
             alt="Split pink and light green floor with toy car"
           />
 
@@ -70,6 +88,7 @@
         <div class="example example-border">
           <img
             src="./assets/images/02-run-buddy.jpg"
+            
             alt="Fill out sheet and someone tieing there shoes"
           />
           <div>
@@ -79,8 +98,9 @@
         </div>
       </section>
 
-      <section>
+      <section id="contact-me">
         <h2>Contact <br />Me</h2>
+        
         <ul class="section-content">
           <li><a href="tel:1333-333-333">+1 333-333-3333</a></li>
           <li>
@@ -89,6 +109,7 @@
           <li><a href=">https://github.com/arnald18">Github</a></li>
           <li><a href="https://twitter.com/Naldo1up">Twitter</a></li>
         </ul>
+      
       </section>
     </main>
     <footer></footer>
