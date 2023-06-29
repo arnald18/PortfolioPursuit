@@ -33,21 +33,29 @@ header {
 
 section {
   display: flex;
-  height: 60px;
-  margin: 30px 0;
+  flex-direction: row;
   flex-wrap: wrap;
+  padding: 2% 2%;
 }
 
 section > h2 {
   /* display: flex; */
-  flex: auto;
+  /* flex: auto;
   flex-direction: column;
   text-align: right;
   border-right: 5px solid black;
   font-size: 3em;
   min-width: 5%;
   max-width: 5%;
-  padding-right: 2%;
+  padding-right: 2%; */
+  border-right: 5px solid #445877;
+  color: #445887;
+  font-size: 250%;
+  text-align: right;
+  padding: 0% 2% 0% 2%;
+  margin: 2% 2%;
+  flex: 0 0 20%;
+  line-height: 1.2;
 }
 
 h3 {
@@ -55,11 +63,13 @@ h3 {
   flex-direction: column;
 }
 
-.section-content {
-  width: 80%;
+.content {
   display: flex;
-  align-self: flex-end;
+  flex-wrap: wrap;
   justify-content: end;
+  flex: 0 0 75%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
 }
 
 #contact-me a {
@@ -67,12 +77,16 @@ h3 {
 }
 
 #first-example {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 0 0 75%;
 }
 
-#first-example img {
+/* #first-example img {
   width: 40%;
-  height: auto;
-}
+  height: auto; */
+
 .example {
   width: 35%;
   height: auto;
@@ -86,7 +100,9 @@ h3 {
 .example-border {
   border: 3px solid var(--secondary);
 }
-.list {
+
+.content ul {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1em;
 }
